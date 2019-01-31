@@ -1,0 +1,396 @@
+[
+    {
+        "type":"journal article",
+        "citation": "Weigelt, P., Daniel Kissling, W., Kisel, Y., Fritz, S.A., Karger, D.N., Kessler, M., Lehtonen, S., Svenning, J.-C., Kreft, H., 2015. Global patterns and drivers of phylogenetic structure in island floras. Scientific Reports 5, 12213. https://doi.org/10.1038/srep12213",
+        "doi": "10.1038/srep12213",
+        "url": "https://doi.org/10.1038/srep12213",
+        "generalAnnotations":{
+            "summary":"Authors test general mechanisms that lead to the formation of plant assemblages on a global scale. They found the ecological factors have more influence in shaping plant communities than dispersal limitations do. Importance of community shaping factors vary between major groups of plants",
+            "evaluation":"It's a useful paper that would be good to keep in mind as tries to explain in a very broad scale the mechanisms that originate plant assemblages. The article is worth considering when comparing this global scope to more local scenario as closely related island groups at a finer scale.",
+            "analysis":""
+        },
+        "usages":[
+            "investigating processes that shape species assemblages",
+            "investigating the effects of abiotic island characteristics related to dispersal, environmental filtering and speciation on the phylogenetic structure"
+        ],
+        "justifications":["Quantifying phylogenteic assemblage structure allows inferences about species assemblages processes", "links between patterns of plant diversity  and environmental variables are well documented but not much understanding of the underlying process", "phylogenetic information can be used to infer assembly processes"],
+        "objectives":["Link phylogenetic assemblage structure to island characteristics worldwide", "test dispersal filtering vs environmental filtering", "shed light on th origin of insular plant diversity","investigating the effects of abiotic island characteristics related to dispersal, environmental filtering and speciation on the phylogenetic structure"],
+        "hypotheses":[
+            "(group differences): global patterns and determinants of phylogenetic structure vary among taxonomic groups due to differences in their dispersal ability, climatic adaptations, distribution patterns and diversification rates",
+            "(dispersal filtering): phylogenetic diversity and overdispersion increase with factors that facilitate dispersal to islands (e.g. low island isolation)",
+            "(environmental filtering) phylogenetic diversity and overdispersion are higher if island environmental conditions fit bioclimatic requirements of a clade (e.g. tropical climate for palms)",
+            "(in-situ speciation): factors that increase the probability of speciation on islands (e.g. larger islands area) are negatively related to phylogenetic overdispersion"
+        ],
+        "expectations":["If dispersal-related traits show a strong phylogenetic signal(i.e. closely related species share similar dispersal abilities, then dispersal filtering should lead to phylogenetically clustered island assemblages"],
+        "generals":["Environmental heterogeneity and past and present climate have been identified as key drivers of species richness on islands"],
+        "remarks":[
+            "A large amount of variation in phylogenetic structure of island floras can be explained by physical and bioclimatic island characteristics",
+            "drivers of phylogenetic structure have strong group-specific components, which supports the group differences hypothesis",
+            "environmental filtering plays a strong part on the phylogenetic structure of island floras",
+            "phylogenetically conserved physiologcal constraints of each group determine which factors act as environmental filters"
+
+        
+        ],
+        "methods":[
+            "phylogenetic diversity  using Faith's PD (sum of all branch lengths representing the species of an island in a clade's pylogeny",
+            "degree of phylogenetic clustering vs. overdispersion ('i.e. higher vs. lower relatedness than expected by chance, measured as standardized effect size of mean pairwise phylogenetic distances (MPD)",
+            "comparison between major plant clades (angiosperms, ferns, palms)",
+            "dated family-level phylogeny for angiosperms and on dated genus-level phylogenies for palms and ferns",
+            "null models randomly shuffling all included species at the tips of the trees"
+        ],
+        "tools":[
+            "R"
+        ]     
+    },
+    {
+        "type":"journal article",
+        "citation": "Carvajal‐Endara, S., Hendry, A.P., Emery, N.C., Davies, T.J., 2017. Habitat filtering not dispersal limitation shapes oceanic island floras: species assembly of the Galápagos archipelago. Ecology Letters 20, 495–504. https://doi.org/10.1111/ele.12753",
+        "doi": "10.1111/ele.12753",
+        "url": "https://doi.org/10.1111/ele.12753",
+
+        "remarks":[
+            "Ability to detect climate signal despite limitations of climatic data available suggests that environmental filtering is strong",
+            "Habitat filtering  rather than dispersal limitation was likely the predominant process structuring plant species composition",
+            "Larger islands show phylogenetic overdispersion as a result of environmenal filtering, as larger islands harbours multiple habitats"
+        ],
+        "expectations":[
+            "If dispersal were the primary process shaping island phylogenetic structure, it is expected that more isolated islands to show greater phylogenetic clustering (assuming phylogenetic conservatism of dispersal traits).",
+            "if dispersal was more important, the presence of species on the archipelago should be best explained by their ability to disperse across long distances"
+        ],
+        "objectives":[
+            "Evaluates association of phylogenetic structure with its potential drivers"
+        ],
+        "generals":[
+            "Phylogenetic clustering could be driven by island isolation, speciation and/or strong environmental filtering by a habitat type on phylogenetically conserved traits; whereas phylogenetic overdispersion could result from competitive exclusion of closely related species, filtering across multiple habitats on an island, and/or environmental filtering for a single habitat type when key traits are convergent in the phylogeny"
+        ],
+        "summary":"",
+        "evaluation":"",
+        "analysis":""
+
+    },
+    {
+        "type":"journal article",
+        "citation": "Kissling, W.D., Eiserhardt, W.L., Baker, W.J., Borchsenius, F., Couvreur, T.L.P., Balslev, H., Svenning, J.-C., 2012. Cenozoic imprints on the phylogenetic structure of palm species assemblages worldwide. PNAS 201120467. https://doi.org/10.1073/pnas.1120467109",
+        "doi":"10.1073/pnas.1120467109",
+        "url": "https://doi.org/10.1073/pnas.1120467109",
+        "hypotheses":[
+            "As a consequence of in situ diversification regional species assemblages are expected to consist predominantly of species that are relatively closely related due to dispersal barriers",
+            "High net diversification should lead to phylogenetically clustered assemblages at regional scales"
+        ],
+        "generals":"",
+        "objectives":[
+            "Explore how Cenozoic events influenced palm assemblages as measured through phylogenetic structure"
+        ],
+        "methods":[
+            "dated genus level phylogenetic tree of palms",
+            "focuses on a specific taxonomic group at a global scale"
+        ],
+        "references": [
+            {
+                "remark": "local community structure depends on both local processes and large-scale factors that influence regional species diversity",
+                "refnames": [9,10]
+            },
+            {
+                "remark": "Studies that examine the assembly of local communities",
+                "refnames": [21,22,23,24]
+            },
+            {
+                "remark": "Assembly phylogenetic structure may reveal large-scale biogeographic processes",
+                "refnames": [25,26,27]
+            },
+            {
+                "remark": "lineages inhabiting large areas over extended geologic time experience higher speciation rates and lower extinction rates than lineages inhabiting small areas (time-integrated area effect)",
+                "refnames": [12,35]
+            },
+            {
+                "remark": "",
+                "refnames": []
+            },
+            {
+                "remark": "",
+                "refnames": []
+            }
+    ]
+
+    },
+    {
+        "type":"journal article",
+        "citation": "Soltis, D.E., Soltis, P.S., 2016. Mobilizing and integrating big data in studies of spatial and phylogenetic patterns of biodiversity. Plant Diversity, Dedicated to 100 years of Wu Zhengyi 38, 264–270. https://doi.org/10.1016/j.pld.2016.12.001",
+        "doi": "10.1016/j.pld.2016.12.001",
+        "url": "https://doi.org/10.1016/j.pld.2016.12.001",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        },
+        "usages":[],
+        "justifications":[],
+        "objectives":[],
+        "hypotheses":[],
+        "expectations":[],
+        "generals":[],
+        "remarks":[],
+        "methods":[],
+        "tools":[],
+        "references": [
+            {
+                "remark": "",
+                "refNames": []
+            },
+            {
+                "remark": "",
+                "refNames": []
+            }
+        ]            
+    },
+    {
+        "type":"journal article",
+        "citation": "Daru, B.H., Elliott, T.L., Park, D.S., Davies, T.J., 2017. Understanding the Processes Underpinning Patterns of Phylogenetic Regionalization. Trends in Ecology & Evolution 32, 845–860. https://doi.org/10.1016/j.tree.2017.08.013",
+        "doi": "10.1016/j.tree.2017.08.013",
+        "url": "https://doi.org/10.1016/j.tree.2017.08.013",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        },
+        "usages":[],
+        "justifications":[],
+        "objectives":[],
+        "hypotheses":[],
+        "expectations":[],
+        "generals":[],
+        "remarks":[],
+        "methods":[],
+        "tools":[],
+        "references": [
+            {
+                "remark": "",
+                "refNames": []
+            },
+            {
+                "remark": "",
+                "refNames": []
+            }
+        ]            
+    },
+    {
+        "type":"journal article",
+        "citation": "Spalink, D., Kriebel, R., Li, P., Pace, M.C., Drew, B.T., Zaborsky, J.G., Rose, J., Drummond, C.P., Feist, M.A., Alverson, W.S., Waller, D.M., Cameron, K.M., Givnish, T.J., Sytsma, K.J., 2018. Spatial phylogenetics reveals evolutionary constraints on the assembly of a large regional flora. American Journal of Botany 105, 1938–1950. https://doi.org/10.1002/ajb2.1191",
+        "doi": "10.1002/ajb2.1191",
+        "url": "https://doi.org/10.1002/ajb2.1191",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Pavoine, S., Bonsall, M.B., 2011. Measuring biodiversity to explain community assembly: a unified approach. Biological Reviews 86, 792–812. https://doi.org/10.1111/j.1469-185X.2010.00171.x",
+        "doi": "10.1111/j.1469-185X.2010.00171.x",
+        "url": "https://doi.org/10.1111/j.1469-185X.2010.00171.x",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Folk, R.A., Sun, M., Soltis, P.S., Smith, S.A., Soltis, D.E., Guralnick, R.P., 2018. Challenges of comprehensive taxon sampling in comparative biology: Wrestling with rosids. American Journal of Botany 105, 433–445. https://doi.org/10.1002/ajb2.1059",
+        "doi": "10.1002/ajb2.1059",
+        "url": "https://doi.org/10.1002/ajb2.1059",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Allen, J.M., Germain-Aubrey, C.C., Barve, N., Neubig, K.M., Majure, L.C., Laffan, S.W., Mishler, B.D., Owens, H.L., Smith, S.A., Whitten, W.M., Abbott, J.R., Soltis, D.E., Guralnick, R., Soltis, P.S., 2019. Spatial Phylogenetics of Florida Vascular Plants: The Effects of Calibration and Uncertainty on Diversity Estimates. iScience 11, 57–70. https://doi.org/10.1016/j.isci.2018.12.002",
+        "doi": "10.1016/j.isci.2018.12.002",
+        "url": "https://doi.org/10.1016/j.isci.2018.12.002",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Li, R., Qian, L., Sun, H., 2018. Current progress and future prospects in phylofloristics. Plant Diversity, Celebrating 80 years of KIB 40, 141–146. https://doi.org/10.1016/j.pld.2018.07.003",
+        "doi": "10.1016/j.pld.2018.07.003",
+        "url": "https://doi.org/10.1016/j.pld.2018.07.003",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Hortal, J., Jr, P.D.M., Santos, A.M.C., Diniz‐Filho, J.A.F., 2012. Integrating biogeographical processes and local community assembly. Journal of Biogeography 39, 627–628. https://doi.org/10.1111/j.1365-2699.2012.02684.x",
+        "doi": "10.1111/j.1365-2699.2012.02684.x",
+        "url": "https://doi.org/10.1111/j.1365-2699.2012.02684.x",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Santo‐Silva, E.E., Santos, B.A., Arroyo‐Rodríguez, V., Melo, F.P.L., Faria, D., Cazetta, E., Mariano‐Neto, E., Hernández‐Ruedas, M.A., Tabarelli, M., 2018. Phylogenetic dimension of tree communities reveals high conservation value of disturbed tropical rain forests. Diversity and Distributions 24, 776–790. https://doi.org/10.1111/ddi.12732",
+        "doi": "10.1111/ddi.12732",
+        "url": "https://doi.org/10.1111/ddi.12732",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Fine, P.V.A., Kembel, S.W., 2011. Phylogenetic community structure and phylogenetic turnover across space and edaphic gradients in western Amazonian tree communities. Ecography 34, 552–565. https://doi.org/10.1111/j.1600-0587.2010.06548.x",
+        "doi": "10.1111/j.1600-0587.2010.06548.x",
+        "url": "https://doi.org/10.1111/j.1600-0587.2010.06548.x",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Sosa, V., De‐Nova, J.A., Vásquez‐Cruz, M., 2018. Evolutionary history of the flora of Mexico: Dry forests cradles and museums of endemism. Journal of Systematics and Evolution 56, 523–536. https://doi.org/10.1111/jse.12416",
+        "doi": "10.1111/jse.12416",
+        "url": "https://doi.org/10.1111/jse.12416",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Machac, A., Janda, M., Dunn, R.R., Sanders, N.J., 2011. Elevational gradients in phylogenetic structure of ant communities reveal the interplay of biotic and abiotic constraints on diversity. Ecography 34, 364–371. https://doi.org/10.1111/j.1600-0587.2010.06629.x",
+        "doi": "10.1111/j.1600-0587.2010.06629.x",
+        "url": "https://doi.org/10.1111/j.1600-0587.2010.06629.x",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Faith, D.P., 1992. Conservation evaluation and phylogenetic diversity. Biological Conservation 61, 1–10. https://doi.org/10.1016/0006-3207(92)91201-3",
+        "doi": "10.1016/0006-3207(92)91201-3",
+        "url": "https://doi.org/10.1016/0006-3207(92)91201-3",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Cadotte, M.W., Cavender-Bares, J., Tilman, D., Oakley, T.H., 2009. Using Phylogenetic, Functional and Trait Diversity to Understand Patterns of Plant Community Productivity. PLOS ONE 4, e5695. https://doi.org/10.1371/journal.pone.0005695",
+        "doi": "10.1371/journal.pone.0005695",
+        "url": "https://doi.org/10.1371/journal.pone.0005695",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Kubota, Y., Hirao, T., Fujii, S., Murakami, M., 2011. Phylogenetic beta diversity reveals historical effects in the assemblage of the tree floras of the Ryukyu Archipelago. Journal of Biogeography 38, 1006–1008. https://doi.org/10.1111/j.1365-2699.2011.02491.x",
+        "doi": "10.1111/j.1365-2699.2011.02491.x",
+        "url": "https://doi.org/10.1111/j.1365-2699.2011.02491.x",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Gusmán-M., E., de la Cruz, M., Espinosa, C.I., Escudero, A., 2018. Focusing on individual species reveals the specific nature of assembly mechanisms in a tropical dry-forest. Perspectives in Plant Ecology, Evolution and Systematics 34, 94–101. https://doi.org/10.1016/j.ppees.2018.07.004",
+        "doi": "10.1016/j.ppees.2018.07.004",
+        "url": "https://doi.org/10.1016/j.ppees.2018.07.004",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Shivaprakash, K.N., Ramesh, B.R., Umashaanker, R., Dayanandan, S., 2018. Functional trait and community phylogenetic analyses reveal environmental filtering as the major determinant of assembly of tropical forest tree communities in the Western Ghats biodiversity hotspot in India. Forest Ecosystems 5. https://doi.org/10.1186/s40663-018-0144-0",
+        "doi": "10.1186/s40663-018-0144-0",
+        "url": "https://doi.org/10.1186/s40663-018-0144-0",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Cornwell, W.K., Westoby, M., Falster, D.S., FitzJohn, R.G., O’Meara, B.C., Pennell, M.W., McGlinn, D.J., Eastman, J.M., Moles, A.T., Reich, P.B., Tank, D.C., Wright, I.J., Aarssen, L., Beaulieu, J.M., Kooyman, R.M., Leishman, M.R., Miller, E.T., Niinemets, Ü., Oleksyn, J., Ordonez, A., Royer, D.L., Smith, S.A., Stevens, P.F., Warman, L., Wilf, P., Zanne, A.E., 2014. Functional distinctiveness of major plant lineages. Journal of Ecology 102, 345–356. https://doi.org/10.1111/1365-2745.12208",
+        "doi": "10.1111/1365-2745.12208",
+        "url": "https://doi.org/10.1111/1365-2745.12208",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Tucker, C.M., Cadotte, M.W., Carvalho, S.B., Davies, T.J., Ferrier, S., Fritz, S.A., Grenyer, R., Helmus, M.R., Jin, L.S., Mooers, A.O., Pavoine, S., Purschke, O., Redding, D.W., Rosauer, D.F., Winter, M., Mazel, F., 2017. A guide to phylogenetic metrics for conservation, community ecology and macroecology. Biological Reviews 92, 698–715. https://doi.org/10.1111/brv.12252",
+        "doi": "10.1111/brv.12252",
+        "url": "https://doi.org/10.1111/brv.12252",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Faith, D.P., 2007. The Role of the Phylogenetic Diversity Measure, PD, in Bio-informatics: Getting the Definition Right. Evol Bioinform Online 2, 277–283.",
+        "doi": "",
+        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2674672/",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Webb, C.O., Ackerly, D.D., McPeek, M.A., Donoghue, M.J., 2002. Phylogenies and Community Ecology. Annu. Rev. Ecol. Syst. 33, 475–505. https://doi.org/10.1146/annurev.ecolsys.33.010802.150448",
+        "doi": "10.1146/annurev.ecolsys.33.010802.150448",
+        "url": "https://doi.org/10.1146/annurev.ecolsys.33.010802.150448",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    },
+    {
+        "type":"journal article",
+        "citation": "Webb, C.O., 2000. Exploring the Phylogenetic Structure of Ecological Communities: An Example for Rain Forest Trees. The American Naturalist 156, 145–155. https://doi.org/10.1086/303378",
+        "doi": "10.1086/303378",
+        "url": "https://doi.org/10.1086/303378",
+        "generalAnnotations":{
+            "summary":"",
+            "evaluation":"",
+            "analysis":""
+        }
+    }
+]

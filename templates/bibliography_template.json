@@ -1,0 +1,30 @@
+{
+    "type":"",
+    "citation": "",
+    "doi": "",
+    "url": "",
+    "generalAnnotations":{
+        "summary":"",
+        "evaluation":"",
+        "analysis":""
+    },
+    "usages":[],
+    "justifications":[],
+    "objectives":[],
+    "hypotheses":[],
+    "expectations":[],
+    "generals":[],
+    "remarks":[],
+    "methods":[],
+    "tools":[],
+    "references": [
+        {
+            "remark": "",
+            "refNames": []
+        },
+        {
+            "remark": "",
+            "refNames": []
+        }
+    ]            
+}
